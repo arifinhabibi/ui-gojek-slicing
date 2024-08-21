@@ -24,12 +24,12 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: primary2, // Change to your splash screen color
-      body: const Center(
-        child: Text(
-          'Gojek',
-          style: TextStyle(color: Colors.white, fontSize: 24),
-        ),
+      backgroundColor:
+          const Color(0xff007C00), // Change to your splash screen color
+      bottomNavigationBar: Positioned(
+        height: 200,
+        bottom: 0,
+        child: Image.asset('assets/images/splash_1.png'),
       ),
     );
   }

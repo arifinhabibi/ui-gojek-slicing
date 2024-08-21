@@ -3,7 +3,6 @@ import 'package:gojek/theme.dart';
 
 class HeaderComponent extends StatelessWidget {
   const HeaderComponent({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Container(
