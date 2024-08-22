@@ -13,6 +13,7 @@ class MenuComponent extends StatelessWidget {
       child: Column(
         children: [
           SizedBox(
+            width: 340,
             height: 157,
             child: GridView.count(
               crossAxisCount: 4,

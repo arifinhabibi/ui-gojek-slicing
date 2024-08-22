@@ -11,6 +11,7 @@ class GopayComponent extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(left: 15, right: 15, top: 15),
       child: Container(
+        width: 324,
         height: 96,
         decoration: BoxDecoration(
             color: secondary2, borderRadius: BorderRadius.circular(15)),

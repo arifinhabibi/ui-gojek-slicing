@@ -68,6 +68,7 @@ class GopayLaterComponent extends StatelessWidget {
                         fit: BoxFit.cover,
                       )),
                   Container(
+                    width: 353,
                     decoration: BoxDecoration(
                         borderRadius: const BorderRadius.only(
                             bottomLeft: Radius.circular(8),
