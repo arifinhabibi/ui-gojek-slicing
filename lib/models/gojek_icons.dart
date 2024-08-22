@@ -25,3 +25,27 @@ List<GojekIcon> menuIcons = [
   GojekIcon(icon: 'goclub', title: 'GoClub', color: purple),
   GojekIcon(icon: 'other', title: 'Lainya', color: dark4),
 ];
+
+class GojekDiscover {
+  final String image;
+  final String title;
+  final String desc;
+
+  GojekDiscover({required this.image, required this.title, required this.desc});
+}
+
+// ignore: non_constant_identifier_names
+List<GojekDiscover> GojekAdvertise = [
+  GojekDiscover(
+      image: '1',
+      title: "makin seru",
+      desc: "Aktifkan & Sambungkan GoPay & GoPayLater di Tokopedia"),
+  GojekDiscover(
+      image: '2',
+      title: "makin seru",
+      desc: "Sambungin Akun ke Tokopedia, Banyakin Untung"),
+  GojekDiscover(
+      image: '3',
+      title: "makin seru",
+      desc: "Promo Belanja Online 10.10: Cashback hingga Rp100.000"),
+];
